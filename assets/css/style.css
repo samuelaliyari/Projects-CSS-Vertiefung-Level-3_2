@@ -22,7 +22,7 @@ a {
 
 img {
     display: block;
-    min-width: 100%;
+    max-width: 100%;
 }
 
 /* ====================================================================
@@ -30,3 +30,224 @@ img {
 =====================================================================*/
 
 
+.hero {
+    background: url(../img/ilustracion1.png) right / contain no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding-left: 6rem;
+    padding-top: 2.25rem;
+    flex: 1;
+}
+
+.hero > * {
+
+}
+
+.hero > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero h3 {
+    font-size: 3.375rem;
+    width: 26.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.hero h2 {
+    font-size: 1rem;
+}
+
+.hero h4 {
+    display: flex;
+    align-items: baseline;
+}
+
+.people img {
+    margin-bottom: 3rem;
+}
+
+.hero h4 img {
+    width: 2rem;
+    min-height: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.hero h5 {
+    padding-block: 4rem;
+}
+
+.gallery {
+    background: url(../img/images.jpg) center / cover no-repeat;
+    max-width: 1440px;
+    min-height: 600px;
+    margin-block: 5rem;
+}
+
+.about {
+    padding-left: 6rem;
+    margin-block: 11rem;
+}
+
+.about > article > div > h2 {
+    font-size: 2.375rem;
+}
+
+
+.lamp {
+    display: flex;
+    flex: 1;
+
+    margin-left: 10rem;
+}
+
+.lamp p {
+    width: 550px;
+    font-size: 1.125rem;
+    margin-left: 9rem;
+    line-height: 2rem;
+}
+
+.every {
+    display: flex;
+    align-items: baseline;
+    
+
+}
+
+.every img {
+    width: 3.75rem;
+    min-height: 3.875rem;
+}
+
+
+.about article h3 {
+    width: 40rem;
+    font-size: 2.375rem;
+    margin-block: 6.875rem;
+    margin-left: 13rem;
+}
+
+
+.info-container {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 5rem;
+    margin-top: 13rem;
+    margin-left: 10rem;
+}
+
+.info-container > div {
+    display: flex;
+    align-items: first baseline;
+}
+
+
+.info-container img {
+    width: 32px;
+    min-height: 32px;
+    margin-right: 1.5rem;
+}
+
+.text-holder {
+    width: 350px;
+}
+
+
+.text-holder p {
+    padding-top: 1rem;
+    width: 300px;
+}
+
+
+.ready {
+width: 600px;
+text-align: center;
+    margin-inline: auto;
+    margin-top: 15rem;
+    padding-right: 5rem;
+}
+
+.steps {
+    padding-left: 10rem;
+}
+
+
+.step1 {
+    display: flex;
+    flex: 1;
+}
+
+.step1 img {
+    width: 550px;
+    padding-right: 3rem;
+}
+.step1 h3 {
+    font-size: 3.25rem;
+
+}
+
+.step1 h5 {
+    font-size: 2.5rem;
+    padding-top: 3rem;
+}
+
+.step1 h4 {
+    font-size: 1.25rem;
+    padding-top: 1.5rem;
+}
+
+.step1 p {
+    font-size: 1rem;
+    padding-top: 1rem;
+    width: 500px;
+}
+
+.step1-text {
+    margin-left: 5rem;
+}
+
+
+.step2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    margin-right: 10rem;
+    margin-block: 10rem;
+}
+
+
+.step2 img {
+    width: 550px;
+    padding-left: 3rem;
+}
+
+.step2 h3 {
+    font-size: 3.25rem;
+
+}
+
+.step2 h5 {
+    font-size: 2.5rem;
+    padding-top: 3rem;
+}
+
+.step2 h4 {
+    font-size: 1.25rem;
+    padding-top: 1.5rem;
+}
+
+.step2 p {
+    font-size: 1rem;
+    padding-top: 1rem;
+    width: 500px;
+}
+
+.step2-text {
+    margin-right: 5rem;
+}
