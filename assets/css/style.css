@@ -116,7 +116,7 @@ nav img {
 }
 
 .gallery {
-    background: url(../img/images.jpg) center / cover no-repeat;
+    background: url(../img/images.jpg) center / contain no-repeat;
     max-width: 90rem;
     min-height: 37.5rem;
     margin-block: 5rem;
