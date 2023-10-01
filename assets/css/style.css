@@ -323,17 +323,18 @@ footer div p {
 }
 
 footer h3 {
-    width: 50rem;
-    padding: 2rem 5rem;
-    margin: 1rem auto;
+    width: 40rem;
+    padding: 2rem 2rem;
+    margin: 3rem auto;
     background-color: rgba(255, 255, 255, 0.358);
     font-family: Roboto_M;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.258);
     
 }
 
 footer a {
     display: inline-block;
-    margin-block: 3rem;
+    margin-block: 1rem;
     font-family: Roboto_R;
     background-color: #FF3571;
     padding: 1.25rem 5rem;
@@ -354,6 +355,7 @@ footer > p {
     margin-left: 3rem;
     padding-bottom: 1rem;
     font-family: Roboto_R;
+    margin-top: 2rem;
 }
 
 
